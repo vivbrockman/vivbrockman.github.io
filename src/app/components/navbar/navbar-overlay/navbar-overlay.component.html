@@ -1,0 +1,9 @@
+<div class="overlay" [ngClass]="{'active': active}">
+    <div class="wrapper">
+        <div></div>
+        <div class="content">
+            <a routerLink="/contact-me" (click)="toggleOverlay()">Contact me</a>
+            <a routerLink="/about-me" (click)="toggleOverlay()">About me</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+.PageHeader {
+    color: #bcd9d7;
+    opacity: 0.5;
+    padding: 1em 0.5em;
+    font-size: 6em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.PageContentContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+@media (max-width: 900px) {
+    .PageHeader {
+        font-size: 3em;
+        padding: 1em 5px;
+    }
+}

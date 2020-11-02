@@ -1,0 +1,51 @@
+.PageContentContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 4em;
+
+    .Section {
+        margin-bottom: 2em;
+    }
+    
+    .SectionHeader {
+        color: #425f4b;
+        font-size: 2em;
+    }
+
+    .SectionContent {
+        display: grid;
+        grid-template-columns: 75px auto;
+        padding: 0 2em;        
+    }
+
+    .SectionLeft, .SectionRight > div {
+        padding: 0.5em 0;
+    }
+    
+    .SectionTitle {
+        font-size: large;
+        padding: 0 1.5em;     
+    }
+
+    .position {
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 450px) {
+    .PageContentContainer { 
+        padding: 0 5px;
+        
+        .SectionContent {
+            display: grid;
+            grid-template-columns: 80px auto;
+            padding: 0 3px;
+        }
+        
+        .SectionTitle {
+            font-size: large;
+            padding: 0 3px;
+        }
+    }
+    
+}

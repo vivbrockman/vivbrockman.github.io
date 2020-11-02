@@ -1,0 +1,33 @@
+.PageContentContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    
+    .Section {
+        margin-bottom: 2em;
+    }
+
+    .SectionHeader {
+        color: #425f4b;
+        font-size: 2em;
+    }
+    
+    .SectionContent {
+        display: grid;
+        grid-template-columns: 80px auto;
+        padding: 0 3px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    .PageContentContainer { 
+        padding: 0 5px;
+    }
+
+    .SectionContent {
+        display: grid;
+        grid-template-columns: 80px auto;
+        padding: 0 1em
+    }
+}
