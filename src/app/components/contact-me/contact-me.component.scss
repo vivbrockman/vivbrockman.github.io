@@ -1,7 +1,7 @@
 .PageContentContainer {
-    max-width: 1200px;
+    max-width: 700px;
     margin: 0 auto;
-    padding: 0 1.5em;
+    padding: 0 4em 4em 4em;
     
     .Section {
         margin-bottom: 2em;
@@ -13,9 +13,11 @@
     }
     
     .SectionContent {
-        display: grid;
-        grid-template-columns: 80px auto;
         padding: 0 3px;
+    }
+
+    ul {
+        padding: 0 1em;
     }
     
 }
@@ -26,8 +28,6 @@
     }
 
     .SectionContent {
-        display: grid;
-        grid-template-columns: 80px auto;
         padding: 0 1em
     }
 }
