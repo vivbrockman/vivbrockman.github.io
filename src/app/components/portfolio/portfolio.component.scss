@@ -2,4 +2,83 @@
     max-width: 700px;
     margin: 0 auto;
     padding: 0 4em 4em 4em;
+
+    .Section {
+        margin-bottom: 2em;
+    }
+    
+    .SectionHeader {
+        color: #425f4b;
+        font-size: 2em;
+        padding-top: 1em;
+    }
+
+    .SectionContent {
+        display: grid;
+        grid-template-columns: auto 80px 80px;
+        // padding: 0 2em;  
+        // grid-gap: 0.5em 1em;        
+    }
+
+    .SectionSubHeader {
+        // padding: 0 1em; 
+
+    }
+
+    .SectionLeft, .SectionRight, .SectionMiddle > div {
+        // padding: 0.5em 0;
+    }
+    
+    .SectionTitle {
+        font-size: large;
+        // padding: 0 1.5em;
+        color: #3a595c;  
+        font-weight: 600;
+    }
+
+    h2 {
+        font-weight: 500;
+        margin-bottom: 0.5em;
+    }
+
+    .SectionLeft.full {
+        grid-column: 1/4;
+    }
+
+    .SectionLeft.full > ul {
+        padding: 0 calc(1em + 5px);
+    }
+    
+    .position.center {
+        text-align: center;
+    }
+
+    .description {
+        font-style: italic;
+        padding: 0 0 0.5em 0!important;
+        margin: 0!important;
+    }
+}
+
+@media (max-width: 550px) {
+    .PageContentContainer { 
+        padding: 0 5px;
+        
+        .SectionContent {
+            display: grid;
+            grid-template-columns: auto 80px 80px;
+            padding: 0 3px;
+        }
+        
+        .SectionTitle {
+            font-size: large;
+            padding: 0 3px;
+        }
+
+        .SectionSubHeader {
+            padding: 0 1px; 
+    
+        }
+    }
+    
 }

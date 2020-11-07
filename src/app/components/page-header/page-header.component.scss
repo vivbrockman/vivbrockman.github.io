@@ -17,7 +17,9 @@
 
 .container > img {
     max-width: 200px;
-    padding: 1em;
+    margin: 1em;
+    box-sizing: border-box;
+    border: 0.5em solid #4f5b66;
 }
 
 

@@ -17,7 +17,7 @@
     }
 
     ul {
-        padding: 0 1em;
+        list-style-type: none;
     }
     
 }
@@ -35,8 +35,5 @@
         padding: 0 1em;
         text-align: center;
 
-        ul {
-            list-style-type: none;
-        }
     }
 }
