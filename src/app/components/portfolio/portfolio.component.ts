@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
   title = 'Portfolio';
+  active = true;
+  active2 = true;
+  active3 = true;
+
   constructor() { }
 
   ngOnInit(): void {
