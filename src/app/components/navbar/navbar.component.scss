@@ -6,9 +6,8 @@
     left: 0;
     right: 0;
     height: 50px;
-    background-color: #4f5b66;
-    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.1); 
-    color: #FFFFFF;
+    background-color: #fff;
+    border-bottom: 0.5px solid rgb(223, 223, 223);
     z-index: 2;
     padding: 0.5em 1em;
 
@@ -21,7 +20,6 @@
         padding-top: 5px;
         font-size: 1.4em;
         padding-left: 3px;
-        // word-wrap: ;
     }
 
     .nav-links {
@@ -62,8 +60,8 @@
 
 .hamburger {
     width: 30px;
-    height: 3px;
-    background: #FFFFFF;
+    height: 2px;
+    background: #222;
     opacity: 0.8;
     position: absolute;
     transition: 0.5s;
@@ -75,8 +73,8 @@
     content: '';
     position: absolute;
     width: 30px;
-    height: 3px;
-    background: #FFFFFF;
+    height: 2px;
+    background: #222;
     transition: 0.5s;
 }
 
@@ -94,12 +92,12 @@
 
 .icon.active .hamburger:before {
     top: 0;
-    transform: rotate(225deg)
+    transform: rotate(135deg)
 }
 
 .icon.active .hamburger:after {
     top: 0;
-    transform: rotate(135deg)
+    transform: rotate(45deg)
 }
 
 
