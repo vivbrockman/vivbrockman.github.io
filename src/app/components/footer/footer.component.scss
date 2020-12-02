@@ -64,16 +64,18 @@ footer > section {
     
     footer > section {
         grid-template-columns: 1fr;
+        grid-gap: 0;
+        
+        .article-languages {
+            grid-column: 1/2;
+            padding-top: 0;
+        }
     }
 
     footer {
         padding-top: 3em;
     }
     
-    .social-icons-footer {
-        grid-template-columns: 1fr 1fr;
-        margin: 2em auto 0 auto;
-    }
 }
 
 
