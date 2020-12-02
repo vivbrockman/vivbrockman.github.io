@@ -14,20 +14,13 @@
 
     .SectionContent {
         display: grid;
-        grid-template-columns: auto 80px 80px;
-        // padding: 0 2em;  
-        // grid-gap: 0.5em 1em;        
-    }
-
-    .SectionSubHeader {
-        // padding: 0 1em; 
-
-    }
-
-    .SectionLeft, .SectionRight, .SectionMiddle > div {
-        // padding: 0.5em 0;
+        grid-template-columns: auto 80px 80px;      
     }
     
+    .SectionTitle {
+        font-size: large;
+    }
+
     .SectionTitle {
         font-size: large;
         // padding: 0 1.5em;
@@ -66,14 +59,8 @@
         .SectionContent {
             display: grid;
             grid-template-columns: auto 60px 60px;
-            // padding: 0 3px;
         }
         
-        .SectionTitle {
-            font-size: large;
-            padding: 0 3px;
-        }
-
         .SectionSubHeader {
             padding: 0 1px; 
     
@@ -86,17 +73,8 @@
     .PageContentContainer { 
         padding: 0 4em 4em 4em;
         
-        .SectionContent {
-        }
-        
-        .SectionTitle {
-            font-size: large;
-            padding: 0 3px;
-        }
-
         .SectionSubHeader {
             padding: 0 2rem;
-            
         }
         
         .Section {
