@@ -7,7 +7,7 @@
     }
     
     .SectionHeader {
-        color: #425f4b;
+        // color: #425f4b;
         font-size: 2em;
         padding-top: 1em;
     }
@@ -54,7 +54,7 @@
 
 @media (max-width: 768px) {
     .PageContentContainer { 
-        padding: 0 1em;
+        padding: 0 5px;
         
         .SectionContent {
             display: grid;
