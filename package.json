@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
-  "homepage": "",
+  "homepage": "https://vivbrockman.com/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
