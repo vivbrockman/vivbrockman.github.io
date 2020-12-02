@@ -24,7 +24,7 @@
 
     .nav-links {
         display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-columns: 2fr 2fr;
         justify-self: end;
     }
     
@@ -49,7 +49,7 @@
 
     .grid {
         display: grid;
-        grid-template-columns: 1fr 3fr 2fr;
+        grid-template-columns: auto 10em;
     }
 }
 

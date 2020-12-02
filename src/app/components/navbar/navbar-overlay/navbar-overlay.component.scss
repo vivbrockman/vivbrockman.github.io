@@ -11,15 +11,8 @@
 
     .wrapper {
         display: grid;
-        grid-template-rows: 1fr 250px 2fr;
-        height: calc(100% - 50px);
-    }
-   
-    .content {
-        display: grid;
-        max-width: 1200px;
-        margin: 0 auto;
-        overflow-y: hidden;
+        grid-template-rows: 2fr 10em 1fr 1fr;
+        height: calc(100% - 66px);
     }
     
     a {
