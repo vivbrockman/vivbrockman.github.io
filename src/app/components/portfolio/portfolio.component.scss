@@ -1,15 +1,25 @@
 .PageContentContainer {
     max-width: 700px;
     margin: 0 auto;
-    padding: 0 4em 4em 4em;
+    padding: 4em 4em 4em 4em;
+
+    section.wrapper {
+        padding: 1em;
+        margin-bottom: 2em;
+        background-color: #202020;
+    }
+
+    section.wrapper:last-child {
+        margin-bottom: 0;
+    }
 
     .Section {
         margin-bottom: 2em;
     }
-    
+
     h1 {
         font-size: 2em;
-        // color: #425f4b;
+        color: #018786;
     }
     
     > .iframes-wrapper {
@@ -47,9 +57,7 @@
     }
     
     .SectionTitle {
-        font-size: large;
-        // padding: 0 1.5em;
-        color: #3a595c;  
+        color: #03DAC6;  
         font-weight: 600;
     }
 
@@ -88,7 +96,6 @@
         }
         
         .SectionTitle {
-            font-size: large;
             padding: 0 3px;
         }
 
@@ -101,7 +108,7 @@
             padding: 1em 0;  
         
             a {
-                font-size: 1rem;
+                font-size: 1em;
             }
         }
 

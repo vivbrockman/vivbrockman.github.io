@@ -1,58 +1,70 @@
 <div class="PageContainer">
-    <app-page-header [title]="title"></app-page-header>
+    <!-- <app-page-header [title]="title"></app-page-header> -->
     <div class="PageContentContainer">
-        <h1>Articles</h1>
-        <div class="iframes-wrapper">
-            <section class="expandcollapse-item">
-                <div (click)="active = !active" class="collapse-item">
-                    <a>A Plate of Potential: Food Policies at KTH</a>
-                    <span class="material-icons">{{ !active ?  'keyboard_arrow_up' : 'keyboard_arrow_down' }}</span>
-                </div>
-
-                <div class="slideDown" [hidden]="active">
-                    <article class="expand-collapse-content">
-                        <iframe class="iframe"
-                            src="https://drive.google.com/file/d/1l8uK5wZ7f_lAOcH-zyLmSjs7bNyWaWtU/preview"></iframe>
-                    </article>
-                </div>
-            </section>
-
-            <section class="expandcollapse-item">
-                <div (click)="active2 = !active2" class="collapse-item">
-                    <a>Greenwashing at THS</a>
-                    <span class="material-icons">{{ !active2 ?  'keyboard_arrow_up' : 'keyboard_arrow_down' }}</span>
-                </div>
-
-                <div class="slideDown" [hidden]="active2">
-                    <article class="expand-collapse-content">
-                        <iframe
-                            src="https://drive.google.com/file/d/1Sd5bbTFhTE7l99k5tuhXXU99tE6_TZ0f/preview"></iframe>
-                    </article>
-                </div>
-            </section>
-
-            <section class="expandcollapse-item">
-                <div (click)="active3 = !active3" class="collapse-item">
-                    <a>Netflix shame</a>
-                    <span class="material-icons">{{ !active3 ?  'keyboard_arrow_up' : 'keyboard_arrow_down' }}</span>
-                </div>
-
-                <div class="slideDown" [hidden]="active3">
-                    <article class="expand-collapse-content">
-                        <iframe
-                            src="https://drive.google.com/file/d/16-BOMPfRuK3YC_D1zZNNbIFxKxVz9sY5/preview"></iframe>
-                    </article>
-                </div>
-            </section>
 
 
-        </div>
-        <h1 class="SectionHeader">Diagrams</h1>
+        <section class="wrapper">
+            <h1>Articles</h1>
+            <div class="iframes-wrapper">
+                <section class="expandcollapse-item">
+                    <div (click)="active = !active" class="collapse-item">
+                        <a>A Plate of Potential: Food Policies at KTH</a>
+                        <span class="material-icons">{{ !active ?  'keyboard_arrow_up' : 'keyboard_arrow_down' }}</span>
+                    </div>
 
-        <h1 class="SectionHeader">Photos</h1>
+                    <div class="slideDown" [hidden]="active">
+                        <article class="expand-collapse-content">
+                            <iframe class="iframe"
+                                src="https://drive.google.com/file/d/1l8uK5wZ7f_lAOcH-zyLmSjs7bNyWaWtU/preview"></iframe>
+                        </article>
+                    </div>
+                </section>
 
-        <h1 class="SectionHeader">Publications</h1>
+                <section class="expandcollapse-item">
+                    <div (click)="active2 = !active2" class="collapse-item">
+                        <a>Greenwashing at THS</a>
+                        <span class="material-icons">{{ !active2 ?  'keyboard_arrow_up' : 'keyboard_arrow_down' }}</span>
+                    </div>
 
-        <h1 class="SectionHeader">Audio</h1>
+                    <div class="slideDown" [hidden]="active2">
+                        <article class="expand-collapse-content">
+                            <iframe
+                                src="https://drive.google.com/file/d/1Sd5bbTFhTE7l99k5tuhXXU99tE6_TZ0f/preview"></iframe>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="expandcollapse-item">
+                    <div (click)="active3 = !active3" class="collapse-item">
+                        <a>Netflix shame</a>
+                        <span class="material-icons">{{ !active3 ?  'keyboard_arrow_up' : 'keyboard_arrow_down' }}</span>
+                    </div>
+
+                    <div class="slideDown" [hidden]="active3">
+                        <article class="expand-collapse-content">
+                            <iframe
+                                src="https://drive.google.com/file/d/16-BOMPfRuK3YC_D1zZNNbIFxKxVz9sY5/preview"></iframe>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+        <section class="wrapper">
+            <h1 class="SectionHeader">Diagrams</h1>
+        </section>
+
+        <section class="wrapper">
+            <h1 class="SectionHeader">Photos</h1>
+        </section>
+
+        <section class="wrapper">
+            <h1 class="SectionHeader">Publications</h1>
+        </section>
+
+        <section class="wrapper">
+            <h1 class="SectionHeader">Audio</h1>
+        </section>
     </div>
 </div>
