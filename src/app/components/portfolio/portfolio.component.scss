@@ -30,21 +30,18 @@
         }
         
         a {
+            padding: 0.5em;
             font-size: 1.5rem;
             text-decoration: underline;
         }
         
         a:hover {
-        }
-
-        .collapse-item {
-            display: grid;
-            grid-template-columns: auto 2em;;
+            color: #03DAC6;
         }
     }
 
     > .iframes-wrapper > section:hover {
-        color: -webkit-link!important;
+        color: #03DAC6!important;
     }
 
     .SectionSubHeader {
@@ -83,11 +80,25 @@
         padding: 0 0 0.5em 0!important;
         margin: 0!important;
     }
+
+    .collapse-item {
+        display: grid;
+        align-items: center;
+        grid-template-columns: auto 1fr;
+
+        span {
+            justify-self: end;
+        }
+
+        a {
+            padding: 1em 0;
+        }
+    }
 }
 
 @media (max-width: 550px) {
     .PageContentContainer { 
-        padding: 0 5px;
+        padding: 2em 1em;
         
         .SectionContent {
             display: grid;

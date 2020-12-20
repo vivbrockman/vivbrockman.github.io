@@ -25,6 +25,7 @@
     .SectionContent {
         display: grid;
         grid-template-columns: auto 80px 80px;      
+        grid-gap: 1em;
     }
 
     .SectionTitle {
@@ -60,7 +61,7 @@
 
 @media (max-width: 768px) {
     .PageContentContainer { 
-        padding: 0 5px;
+        padding: 2em 1em;
         
         .SectionContent {
             display: grid;

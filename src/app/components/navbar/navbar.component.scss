@@ -55,8 +55,8 @@
 
 .hamburger {
     width: 30px;
-    height: 2px;
-    background: #222;
+    height: 0px;
+    background: #fff;
     opacity: 0.8;
     position: absolute;
     transition: 0.5s;
@@ -67,27 +67,27 @@
 .hamburger:after {
     content: '';
     position: absolute;
-    width: 30px;
+    width: 1.8em;
     height: 2px;
-    background: #222;
+    background: #fff;
     transition: 0.5s;
 }
 
 .hamburger:before {
-    top: -8px;
+    top: -4px;
 }
 .hamburger:after {
-    top: 8px;
+    top: 4px;
 }
 
-.icon.active .hamburger {
-    background: rgba(0,0,0,0);
-    transform: rotate(90deg)
-}
+// .icon.active .hamburger {
+//     background: rgba(0,0,0,0);
+//     transform: rotate(45deg)
+// }
 
 .icon.active .hamburger:before {
     top: 0;
-    transform: rotate(135deg)
+    transform: rotate(-45deg)
 }
 
 .icon.active .hamburger:after {
