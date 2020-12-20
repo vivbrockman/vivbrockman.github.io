@@ -8,6 +8,13 @@
         background-color: #202020;
     }
 
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 10em;
+        border: 5px solid #121212;
+    }
+
     section.wrapper:last-child {
         margin-bottom: 0;
     }
